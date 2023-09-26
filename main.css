@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+body > header {
+    padding: 16px;
+    background-color: rgb(30, 92, 187);
+    color: whitesmoke;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 24px;
+    color: rgb(30, 92, 187);
+}
+
+section h3 {
+    color: rgb(16, 50, 100);
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+.portal-pag  {
+    margin-right: 32px;
+}
+
+.artigos img {
+    height: 200px;
+}
+
+.artigos article {
+    width: 45%;
+}
+
+#noticia-dia .container,
+#noticia-geek .container {
+    display: block;
+    margin-top: 50px;
+}
+
+.artigos,
+.metodos-contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+.artigos article a {
+    background-color: rgb(30, 92, 187);
+    color: whitesmoke;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.artigos article a:hover {
+    text-decoration: underline;
+}
+
+section h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.social-links img {
+    height: 50px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contatos .container {
+    display: block;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 500px;
+    margin-bottom: 8px;
+    padding: 16px;
+}
+
+form textarea {
+    resize: none;
+    height: 200px;
+}
+
+form button {
+    background-color: rgb(30, 92, 187);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(16, 50, 100);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(30, 92, 187);
+}
+
+footer {
+    background-color: rgb(30, 92, 187);
+    color: whitesmoke;
+    padding: 16px 0;
+}
+
+#us {
+    background-color: rgb(243, 240, 236);
+}
+
+#noticia-dia {
+    background-color: rgb(236, 233, 233);
+}
+
+#noticia-geek {
+    background-color: rgb(243, 240, 236);
+}
+
+#contatos {
+    background-color: rgb(236, 233, 233);
+}
